@@ -99,7 +99,7 @@ public class izquierda {
           Nodo n2=n.izq;//5  
           Nodo n3= n.izq.izq; //este no lo vamos a usar 2   
           n2.der=n1;
-         // n=n2;
+          n=n2;
           n2.der.izq=null;
           n2.der.altura=1; 
           n2.der.balance=0;
