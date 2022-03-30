@@ -6,7 +6,7 @@ package jgraphx;
 
 /**
  *
- * @author
+ * @author  godoy
  */
 public class izquierda {
      public Nodo raiz2;
