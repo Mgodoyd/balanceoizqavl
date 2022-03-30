@@ -54,20 +54,20 @@ public class Jgraphx  extends JFrame {
 		frame.setVisible(true);
         */
       //derecha
- avl arbol= new avl();
+   avl arbol= new avl();
    arbol.raiz=     arbol.insert(arbol.raiz,20);
-  arbol.raiz=       arbol.insert(arbol.raiz, 25);
-     arbol.raiz=    arbol.insert(arbol.raiz, 24);
+   arbol.raiz=       arbol.insert(arbol.raiz, 25);
+   arbol.raiz=    arbol.insert(arbol.raiz, 24);
    arbol.raiz=      arbol.insert(arbol.raiz, 26);
-    arbol.raiz=     arbol.insert(arbol.raiz, 30);
+   arbol.raiz=     arbol.insert(arbol.raiz, 30);
     
     //izquierda
     izquierda arbol2= new izquierda();
     arbol2.raiz2=     arbol2.insert(arbol2.raiz2,11);//11      
-  arbol2.raiz2=       arbol2.insert(arbol2.raiz2,15); // 15
-     arbol2.raiz2=    arbol2.insert(arbol2.raiz2, 20);//20
-   arbol2.raiz2=      arbol2.insert(arbol2.raiz2, 5);//5
-   arbol2.raiz2=     arbol2.insert(arbol2.raiz2, 2); //2
+    arbol2.raiz2=       arbol2.insert(arbol2.raiz2,15); // 15
+    arbol2.raiz2=    arbol2.insert(arbol2.raiz2, 20);//20
+    arbol2.raiz2=      arbol2.insert(arbol2.raiz2, 5);//5
+    arbol2.raiz2=     arbol2.insert(arbol2.raiz2, 2); //2
 
 
     }
